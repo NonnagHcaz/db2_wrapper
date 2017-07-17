@@ -1,1 +1,1 @@
-ibmdb
+ibm_db
