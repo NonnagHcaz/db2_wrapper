@@ -55,8 +55,7 @@ def setup_connection(db_dict, out=sys.stdout):
     if len(key_diffs) <= 0:
         # Dictionary is valid
         connection = ibm_db.connect("dsn=" + db_dict['DB_NAME'],
-                                    db_dict['DB_UID'],
-                                    db_dict['DB_PWD'])
+                                    db_dict['DB_UID'], db_dict['DB_PWD'])
     else:
         # Dictionary is invalid, so print missing expected keys
         out.write('ERROR: The following fields must be set:')
