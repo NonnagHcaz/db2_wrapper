@@ -87,10 +87,10 @@ install:
   # compiled extensions and are not provided as pre-built wheel packages,
   # pip will build them from source using the MSVC compiler matching the
   # target Python version and architecture
-  - "%CMD_IN_ENV% pip install coveralls"
-  - "%CMD_IN_ENV% pip install coverage"
-  - "%CMD_IN_ENV% pip install mock"
-  - "%CMD_IN_ENV% pip install -r requirements.txt"
+  - "%CMD_IN_ENV% python -m pip install coveralls"
+  - "%CMD_IN_ENV% python -m pip install coverage"
+  - "%CMD_IN_ENV% python -m pip install mock"
+  - "%CMD_IN_ENV% python -m pip install -r requirements.txt"
 
 build_script:
   # Build the compiled extension
@@ -98,7 +98,7 @@ build_script:
 
 test_script:
   # Run the project tests
-  - "%CMD_IN_ENV% python setup.py nosetests"
+  - "%CMD_IN_ENV% python -m coverage run -m unittest discover"
 
 after_test:
   # If tests are successful, create binary packages for the project.
