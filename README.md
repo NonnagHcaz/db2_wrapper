@@ -19,12 +19,12 @@ This repository contains a useful wrapper module for simplifying the creation of
 KNOWN BUGS:
 -----------
 
-None
+  - None
 
 ---
 
 TODO:
 -----
 
-Program unit tests
-Write gist
+  - Program unit tests
+  - Write gist
