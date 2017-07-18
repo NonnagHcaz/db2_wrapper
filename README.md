@@ -2,7 +2,7 @@ IBM DB2 Wrapper (db2_wrapper)
 =================================
 
 [![Travis](https://img.shields.io/travis/gannon93/db2_wrapper.svg?label=Linux%20Status)](https://travis-ci.org/gannon93/db2_wrapper)
-[![AppVeyor](https://img.shields.io/appveyor/ci/Gannon93/db2_wrapper.svg?label=Windows%20Status)](https://ci.appveyor.com/project/Gannon93/db2_wrapper)  
+[![AppVeyor](https://img.shields.io/appveyor/ci/Gannon93/db2-wrapper.svg?label=Windows%20Status)](https://ci.appveyor.com/project/Gannon93/db2-wrapper)  
 [![Coveralls](https://img.shields.io/coveralls/gannon93/db2_wrapper.svg?label=Code%20Coverage)](https://coveralls.io/github/gannon93/db2_wrapper?branch=master)
 
 Written by Zachary Gannon.   
